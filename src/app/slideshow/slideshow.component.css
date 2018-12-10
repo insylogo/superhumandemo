@@ -1,0 +1,17 @@
+.carousel > div {
+    display:inline-block;
+
+}
+
+.caorusel {
+    vertical-align:top;
+}
+
+.carousel2 {
+    overflow: hidden;
+    height:768px;
+    width: 100%;
+}
+.carousel2 span {
+    display:inline-block;
+}

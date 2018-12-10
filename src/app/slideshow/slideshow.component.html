@@ -1,0 +1,35 @@
+<div class="carousel" >
+  <div class="prev"   
+    [style.height.px]="768" 
+    [style.width.px]="128"
+    (click)="prev()"   >
+    <img [src]="prevImage" [style.maxWidth.px]="128" align="top"  />
+  </div>
+    <div class="current">
+      <img [src]="currentImageUrl" 
+      [style.maxHeight.px]="768" 
+      [style.maxWidth.px]="768" align="top"  />
+    </div>
+
+    <div class="next" 
+        (click)="next()" 
+        [style.height.px]="768" 
+        [style.width.px]="128"
+         >
+        
+      <img class="nextImage" 
+       [src]="nextImage" 
+       [style.maxWidth.px]="128" 
+       align="top" />
+    </div>
+  </div>
+<!--<div class="carousel2"
+   [style.scrollLeft.px]="currentImageIndex*768"   
+     [style.width.px]="1200"
+     
+> 
+    <span *ngFor="let img of images" [style.width.px]="768"  >
+      <img [src]="img.urls.regular"  [style.maxHeight.px]="768" />
+    </span>
+  </div>-->
+  
